@@ -1,5 +1,6 @@
 /.idea/
 !/.idea/aop_test.iml
 /storage
+!storage/test.php
 
 
