@@ -1,4 +1,4 @@
 /.idea/
 !/.idea/aop_test.iml
-/storage/*
-!storage/test.php
+storage/
+!/storage/test.php
