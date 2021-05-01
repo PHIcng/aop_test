@@ -10,4 +10,5 @@ return array(
     'Go\\ParserReflection\\' => array($vendorDir . '/goaop/parser-reflection/src'),
     'Go\\' => array($vendorDir . '/goaop/framework/src'),
     'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib/Doctrine/Common/Annotations'),
+    'App\\' => array($baseDir . '/App'),
 );

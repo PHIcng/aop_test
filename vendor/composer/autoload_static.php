@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitce4a9d9b507bde73bd53ea559f0610cb
+class ComposerStaticInit1809a902cc096b18632206e23649ed12
 {
     public static $files = array (
         '950e8c5ec01dc90f029c243f73011631' => __DIR__ . '/..' . '/goaop/parser-reflection/src/bootstrap.php',
@@ -23,6 +23,10 @@ class ComposerStaticInitce4a9d9b507bde73bd53ea559f0610cb
         'D' => 
         array (
             'Doctrine\\Common\\Annotations\\' => 28,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -43,6 +47,10 @@ class ComposerStaticInitce4a9d9b507bde73bd53ea559f0610cb
         array (
             0 => __DIR__ . '/..' . '/doctrine/annotations/lib/Doctrine/Common/Annotations',
         ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -62,9 +70,9 @@ class ComposerStaticInitce4a9d9b507bde73bd53ea559f0610cb
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitce4a9d9b507bde73bd53ea559f0610cb::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitce4a9d9b507bde73bd53ea559f0610cb::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitce4a9d9b507bde73bd53ea559f0610cb::$prefixesPsr0;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1809a902cc096b18632206e23649ed12::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1809a902cc096b18632206e23649ed12::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit1809a902cc096b18632206e23649ed12::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
